@@ -1,0 +1,5 @@
+vim /var/lib/pgsql/9.4/data/pg_hba.conf
+
+vim /var/lib/pgsql/9.4/data/postgresql.conf
+#dump postgres
+pg_dump -U username -s dbname --inserts --format p -f dbname.sql
