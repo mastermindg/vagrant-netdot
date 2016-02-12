@@ -13,7 +13,7 @@ sudo rpm -ivh epel-release-7-2.noarch.rpm
 yum install -y make gcc gcc-c++ autoconf automake rpm-build openssl-devel git perl perl-CPAN perl-Inline mod_perl_devel
 #LAMP Server
 #Apache
-yum install -y httpd
+yum install -y httpd rrdtool
 systemctl start httpd.service
 #Enable Apache to run on boot
 systemctl enable httpd.service
