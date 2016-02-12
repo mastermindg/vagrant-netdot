@@ -2,7 +2,7 @@
 yum install -y epel-release
 
 #Install Apache
-yum -y install httpd
+yum -y install httpd rrdtool
 service httpd start
 
 #Install myql
